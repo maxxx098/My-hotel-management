@@ -1,0 +1,14 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-fluid  {
+    background-color: #255D39;
+   color: #fff; 
+  padding-top: 50px;
+}
+
+.col-lg-4 a {
+    color: #fff;
+}

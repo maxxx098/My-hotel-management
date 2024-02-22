@@ -1,0 +1,88 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+/* carousel */
+/* Example CSS for the Bootstrap carousel with captions */
+
+/* Style for carousel caption */
+.carousel-caption {
+position: absolute;
+bottom: 40%;
+left: 0;
+right: 0;
+/* background-color: #6640087b;  */
+padding: 20px;
+color: #fff;
+/* backdrop-filter: blur(2px) */
+}
+
+/* Style for the caption title */
+.carousel-caption h5 {
+font-size: 3rem;
+font-weight: bolder;
+margin-bottom: 10px;
+}
+
+/* Style for the caption text */
+.carousel-caption p {
+font-size: 1rem;
+margin-bottom: 0;
+}
+
+#caption1 {
+color: #fff;
+bottom: 60%;
+left: 40%;
+
+}
+
+#caption2 {
+color: #fff;
+}
+
+
+#caption3 {
+color: #fff;
+right:40%;
+bottom: 70%;
+/* top :50%; */
+}
+
+
+
+.card-body {
+background: #255D39;
+color: #fff;
+
+}
+
+.mt-5{
+color:#766a0f; 
+}
+.badge {
+color:#766a0f; 
+}
+
+.swiper-slide {
+color:#fff; 
+background-color: #255d39ca;
+
+border-radius: 3%;
+/* backdrop-filter: blur(15px) ; */
+/* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+
+}
+
+.btn {
+background-color: #fff;
+color: #664108;
+border-color: #664108;
+}
+.btn :hover {
+background-color: #766a0f;
+color: #fff;
+}
+.testimonial h2 {
+color: #fff;
+}

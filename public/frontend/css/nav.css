@@ -1,0 +1,245 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+--bg1: #151828;
+--bg2: #1b1f34;
+--body: #959DCC;
+--brand: #FFAB76;
+--white: #FFF;
+   }
+ .availability-form .col-lg-12  {
+   margin-top: -50px;
+   z-index: 999;
+   position: relative;
+   background-image: url('./images/bg5.png');
+   color: #fff;
+ }
+
+ @media screen and (max-width: 575px) {
+ .availability-form{
+   margin-top: 25px;
+   padding: 0 35px;
+ }
+
+ }
+ .testimonial {
+ background-image: url('./images/bg11.png'); 
+ object-fit: cover;
+ display: block;
+ /* width: auto; */
+ background-repeat: no-repeat;
+ background-size:cover;
+ }
+ 
+ .owl-prev,
+.owl-next {
+ width: 60px;
+ height: 60px;
+ 
+ color: #D5B981;
+ background: #1d2434;
+ font-size: 22px;
+ transition: .3s;
+ margin-bottom: 10px;
+}
+.owl-next {
+ margin-left: 15px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+ color: #1d2434;
+ background: #D5B981;
+
+}
+.cta-btns{
+ text-align: center;
+ margin-top: 60px;
+}
+
+
+
+
+/* BTN */
+.btn{
+ padding: 16px 36px;
+ font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ transition: all 0.4s;
+ border-radius: 0px;
+
+}
+.btn-brand{
+ background-color: var(--brand);
+
+}
+.btn-brand:hover{
+ background-color:transparent;
+ color: var(--brand);
+ border-color: var(--brand) ;
+}
+.btn-outline-brand{
+ background-color:transparent;
+ color: var(--brand);
+ border-color: var(--brand) ;
+}
+.btn-outline-brand:hover{
+ background-color: var(--brand);
+
+}
+.btn{
+ padding: 16px 36px;
+ font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ transition: all 0.4s;
+ border-radius: 0px;
+
+}
+.btn-brand{
+ background-color: var(--brand);
+
+}
+.btn-brand:hover{
+ background-color:transparent;
+ color: var(--brand);
+ border-color: var(--brand) ;
+}
+.btn-outline-brand{
+ background-color:transparent;
+ color: var(--brand);
+ border-color: var(--brand) ;
+}
+.btn-outline-brand:hover{
+ background-color: var(--brand);
+
+}
+
+
+.navbar {
+ /* background:#14241C;  */
+ background:#255D39;
+ /* background:#573B11; */
+ color:#625918;
+  /* opacity: 0.5; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-item .nav-link{
+  color:#fff;
+}
+
+.nav-item .active {
+  color: #625918;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #b0a54f;
+
+}
+.button {
+  color: #fff;
+}
+
+
+
+.mybutton {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+   .testimonial {
+   background-image: url('./images/bg11.png'); 
+   object-fit: cover;
+   display: block;
+   /* width: auto; */
+   background-repeat: no-repeat;
+   background-size:cover;
+   }
+   
+   .owl-prev,
+  .owl-next {
+   width: 60px;
+   height: 60px;
+   
+   color: #D5B981;
+   background: #1d2434;
+   font-size: 22px;
+   transition: .3s;
+   margin-bottom: 10px;
+ }
+ .owl-next {
+   margin-left: 15px;
+ }
+ 
+  .owl-prev:hover,
+  .owl-next:hover {
+   color: #1d2434;
+   background: #D5B981;
+  
+ }
+ .cta-btns{
+   text-align: center;
+   margin-top: 60px;
+ }
+ 
+ 
+ 
+ 
+ /* BTN */
+ .btn{
+   padding: 16px 36px;
+   font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition: all 0.4s;
+   border-radius: 0px;
+ 
+ }
+ .btn-brand{
+   background-color: var(--brand);
+ 
+ }
+ .btn-brand:hover{
+   background-color:transparent;
+   color: var(--brand);
+   border-color: var(--brand) ;
+ }
+ .btn-outline-brand{
+   background-color:transparent;
+   color: var(--brand);
+   border-color: var(--brand) ;
+ }
+ .btn-outline-brand:hover{
+   background-color: var(--brand);
+ 
+ }
+ .btn{
+   padding: 16px 36px;
+   font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   transition: all 0.4s;
+   border-radius: 0px;
+ 
+ }
+ .btn-brand{
+   background-color: var(--brand);
+ 
+ }
+ .btn-brand:hover{
+   background-color:transparent;
+   color: var(--brand);
+   border-color: var(--brand) ;
+ }
+ .btn-outline-brand{
+   background-color:transparent;
+   color: var(--brand);
+   border-color: var(--brand) ;
+ }
+ .btn-outline-brand:hover{
+   background-color: var(--brand);
+ 
+ }
+ 
+

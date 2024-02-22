@@ -1,0 +1,113 @@
+:root {
+    --bg1: #151828;
+    --bg2: #1b1f34;
+    --body: #959DCC;
+    --brand: #FFAB76;
+    --white: #FFF;
+    --primary: #EB1616;
+    --secondary: #191C24;
+    --light: #6C7293;
+    --dark: #000000;
+    --rich-black-fogra-39_50: hsla(0, 0%, 5%, 0.5);
+    --rich-black-fogra-39: hsl(0, 0%, 5%);
+    --indian-yellow_10: hsla(36, 61%, 58%, 0.1);
+    --indian-yellow: hsl(36, 61%, 58%);
+    --harvest-gold: hsl(36, 66%, 53%);
+    --eerie-black-1: hsl(0, 0%, 14%);
+    --eerie-black-2: hsl(0, 0%, 12%);
+    --eerie-black-2_85: hsla(0, 0%, 12%, 0.85);
+    --eerie-black-3: hsl(0, 0%, 8%);
+    --sonic-silver: hsl(0, 0%, 44%);
+    --davys-gray: hsl(210, 9%, 31%);
+    --light-gray: hsl(0, 0%, 80%);
+    --platinum: hsl(0, 0%, 91%);
+    --black_30: hsla(0, 0%, 0%, 0.3);
+    --white_10: hsla(0, 0%, 100%, 0.1);
+    --white_30: hsla(0, 0%, 100%, 0.3 );
+    --white_50: hsla(0, 0%, 100%, 0.5);
+    --white: hsl(0, 0%, 100%);
+    --jet: hsl(0, 0%, 21%);
+   
+    /**
+     * typography
+     */
+   
+    --ff-oswald : 'Oswald', sans-serif;
+    --ff-rubik: 'Rubik', sans-serif;
+   
+    --fs-40: 4rem;
+    --fs-30: 3rem;
+    --fs-24: 2.4rem;
+    --fs-18: 1.8rem;
+    --fs-14: 1.4rem;
+    --fs-13: 1.3rem;
+   
+    --fw-300: 300;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+   
+    /**
+     * spacing
+     */
+   
+    --section-padding: 80px;
+   
+    /**
+     * shadow
+     */
+   
+    --shadow-1: 10px 0 60px hsla(0, 0%, 15%, 0.07);
+    --shadow-2: 10px 0 60px hsla(0, 0%, 15%, 0.1);
+   
+    /**
+     * radius
+     */
+   
+    
+   }
+   
+   .button_slide {
+    color: #FFF;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_down:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  
+  .slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #D80286;
+  }
+  
+  .slide_left:hover {
+    box-shadow: inset 0 0 0 50px #D80286;
+  }
+  
+  .slide_diagonal:hover {
+    box-shadow: inset 400px 50px 0 0 #D80286;
+  }
+  
+  #outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+  }
+  .background-image {
+    background-image: url(public/images/premier.jpg);
+  }
+  
+  
+
+    
